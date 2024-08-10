@@ -1,0 +1,6 @@
+sources:
+  - name: "Mahesh"
+    database: DB_ECOM
+    schema: OLTP
+    tables:
+      - name: RAW
