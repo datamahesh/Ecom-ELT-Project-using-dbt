@@ -8,7 +8,7 @@ This project aims to build a robust ELT (Extract, Load, Transform) pipeline for 
 1. **Source Data**:
    - The raw sales data files are stored in Snowflake data warehouse, containing various details such as transaction dates, customer information, product details, and sales metrics.
 
-2. **ETL Process**:
+2. **ELT Process**:
    - **Extract**: Retrieve raw data from Snowflake's raw data schema.
    - **Transform**: Use dbt Cloud to define and implement data transformation models that clean, standardize, and structure the raw sales data. This includes:
      - Creating dimension tables for customers, products, country and sales.
@@ -32,7 +32,8 @@ This project aims to build a robust ELT (Extract, Load, Transform) pipeline for 
 #### Benefits:
 - **Improved Data Quality**: The structured ELT process ensures that the data is clean, consistent, and ready for analysis.
 - **Efficient Reporting**: With well-defined dimension and fact tables, stakeholders can generate reports quickly and accurately.
-- **Scalability**: The use of Snowflake and dbt Cloud allows the ETL pipeline to scale easily with growing data volumes.
+- **Scalability**: The use of Snowflake and dbt Cloud allows the ELT pipeline to scale easily with growing data volumes.
 - **Automation**: Automating the ELT process reduces manual effort, minimizes errors, and ensures data is always up-to-date.
 
+#### Benefits:
 This project lays the foundation for a robust data infrastructure, enabling the e-commerce platform to leverage its data for strategic decision-making and business growth.
