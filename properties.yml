@@ -1,1 +1,29 @@
-
+models:
+  - name: "Dim_Products"
+    config:
+      schema: "DATA_MODELS"
+      materialized: 'table'
+  - name: "Dim_Customers"
+    config:
+      schema: "DATA_MODELS"
+      materialized: 'table' 
+  - name: "Dim_Channel_Type"
+    config:
+      schema: "DATA_MODELS"
+      materialized: 'table'
+  - name: "Dim_Sales_Channel"
+    config:
+      schema: "DATA_MODELS"
+      materialized: 'table'
+  - name: "Dim_Countries"
+    config:
+      schema: "DATA_MODELS"
+      materialized: 'table'
+  - name: "Dim_Discount"
+    config:
+      schema: "DATA_MODELS"
+      materialized: 'table' 
+  - name: "Fact_Sales"
+    config:
+      schema: "DATA_MODELS"
+      materialized: 'table' 
