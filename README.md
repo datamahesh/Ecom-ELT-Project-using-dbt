@@ -1,4 +1,4 @@
-### Project Description: E-Commerce ELT using dbt Cloud and Snowflake
+### Project: E-Commerce ELT using dbt Cloud and Snowflake
 
 #### Project Overview:
 This project aims to build a robust ELT (Extract, Load, Transform) pipeline for an e-commerce platform using dbt Cloud and Snowflake. The objective is to transform raw sales data stored in Snowflake into well-structured dimension and fact tables, enabling efficient and accurate reporting, analysis, and decision-making.
