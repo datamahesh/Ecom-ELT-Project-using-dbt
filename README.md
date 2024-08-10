@@ -35,5 +35,5 @@ This project aims to build a robust ELT (Extract, Load, Transform) pipeline for 
 - **Scalability**: The use of Snowflake and dbt Cloud allows the ELT pipeline to scale easily with growing data volumes.
 - **Automation**: Automating the ELT process reduces manual effort, minimizes errors, and ensures data is always up-to-date.
 
-#### Benefits:
+#### Conclusion:
 This project lays the foundation for a robust data infrastructure, enabling the e-commerce platform to leverage its data for strategic decision-making and business growth.
